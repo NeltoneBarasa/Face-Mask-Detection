@@ -1,2 +1,7 @@
 # Face-Mask-Detection
-This project uses deep learning to classify brain tumors from MRI images, enhancing early diagnosis and patient care.
+
+This project aims to develop an intelligent system for detecting and classifying brain tumors from MRI images using deep learning. Brain tumors, such as glioma, meningioma, and pituitary tumors, pose serious health risks, and early diagnosis is crucial for effective treatment. However, traditional diagnostic methods can be time-consuming and prone to human error, highlighting the need for automated solutions that enhance accuracy and efficiency.  
+
+The system utilizes Convolutional Neural Networks (CNNs) to analyze MRI images and classify tumors into four categories: glioma, meningioma, pituitary tumor, and no tumor. The model is trained using a labeled dataset with image preprocessing and augmentation techniques to improve accuracy and generalization. It features multiple convolutional layers for feature extraction, max-pooling layers for dimensionality reduction, and fully connected dense layers for classification. Categorical cross-entropy loss is used for optimization, with performance evaluated through accuracy, precision, recall, and F1-score metrics.  
+
+This automated approach enhances diagnostic efficiency and reduces human error, making it a valuable tool for healthcare professionals. By integrating this system into medical settings, radiologists can receive reliable assistance in identifying and classifying brain tumors, leading to quicker and more accurate diagnoses. Ultimately, this project aims to improve patient outcomes by enabling early detection and effective treatment of brain tumors.
